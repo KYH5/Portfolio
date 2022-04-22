@@ -12,13 +12,12 @@ html, body {
 header {
     height: 60px;
     line-height: 60px;
- }
+}
 header div {
     width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-   
 }
 header div h1 a {
     font-size: 25px;
@@ -26,6 +25,11 @@ header div h1 a {
     }
 header div a {
     font-size: 18px; 
+}
+header div a i {
+    font-size: 25px;
+    vertical-align: middle;
+    margin-bottom: 5px;
 }
 /* .main_visual */
 .main_visual {
@@ -403,9 +407,13 @@ footer ul li:first-child {
     background-color: royalblue;
     font-weight: bold;
 }
-footer ul li:first-child a {
-    /* 글자색상 조절 */
+footer ul li:nth-child(3) i{
+    font-size: 40px;
+    vertical-align: middle;
+    color: yellow;
 }
+
+
 footer p {
     margin-top: 20px;
     font-size: 14px;
@@ -490,7 +498,7 @@ footer p {
     }
     }
     
-@media screen and (max-width: 640px;) {
+@media screen and (max-width: 640px) {
     .main_visual .title h2 {
         font-size: 40px;
     }
@@ -528,7 +536,7 @@ footer p {
     .about .cont .info div dl dd {
         font-size: 16px;
     }
-        
+}
     
     
 
